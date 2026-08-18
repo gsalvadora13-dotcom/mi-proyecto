@@ -31,6 +31,12 @@ Se recomienda 1920×1080 o más: cada escena hace un zoom de hasta el 20 %, así
 que una foto pequeña se ve blanda. Si usas `.jpg`, cambia la extensión en
 `src/video/scenes.ts`.
 
+Los encuadres (`from` / `to` en `src/video/scenes.ts`) están calculados para la
+composición concreta de cada foto: el capítulo 2 abre desde los remachadores
+hasta el casco completo, el 3 recorre las pilas de contenedores de popa a proa,
+el 4 cierra sobre la proa y los remolcadores. Si cambias una foto por otra con
+distinta composición, ajusta esos dos valores.
+
 ## Cómo cambiar el guion
 
 Todo el contenido vive en `src/video/scenes.ts`: texto, duración de cada
